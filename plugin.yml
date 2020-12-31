@@ -1,0 +1,19 @@
+---
+name: DeadBody
+version: 0.0.1
+main: xBeastMode\DeadBody\Main
+api: 3.17.1
+
+commands:
+  addbody:
+    description: "Adds corpse"
+    permission: command.addbody
+  removebody:
+    description: "Remove corpse, tap it to remove."
+    permission: command.removebody
+permissions:
+  command.addbody:
+    default: op
+  command.removebody:
+    default: op
+...
